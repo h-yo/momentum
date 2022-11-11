@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url("https://cdn.pixabay.com/photo/2020/01/04/23/47/switzerland-4742027_960_720.jpg
+        );
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+             background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MjlfMjEz%2FMDAxNTk1OTgyNDIxMDM4.wDKcuQXynmjJHBnrbefZ9Kw0U8d0R6W0Y5xsS1p7r9Qg.0qPUG_JS05Ns2uIGpi0-NRiwh7kD45fulgb7Cs9mK9Eg.JPEG.bnfintech%2F%25BE%25C6%25C0%25CC%25BD%25BD%25B6%25F5%25B5%25E5_%25BD%25BA%25C4%25DA%25B0%25A1_%25B0%25AD_6147x5304.jpg&type=sc960_832");
+            
+
+             color: wheat ;
+
+            
+        
+            }
+       
+        .time {
+            font-size: 100px;
+            font-weight: bold;
+            }    
+
+        .greeting {
+             font-size: 50px;
+         }
+        .todo {
+            font-size: 30px;
+        }
+        .author {
+            font-size: 25px;
+            font-style: italic;
+
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+ <div class="main">
+    <div  id="time" class="time">12:00</div>
+    <div class="greeting">Bonjour, moi</div>
+    <div class="todo">매일 책 30분 이상 읽기</div>
+ </div>
+ <div class="quote">
+    <div id="author" class="author">- 명언의 저자 -</div>
+    <div id="content" class="content">" 명언의 내용 "</div>  
+ </div>
+ </div>  
+</body>
+
+</html>
